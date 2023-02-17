@@ -1,0 +1,182 @@
+
+        .wp-container-1>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        .wp-container-1>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        .wp-container-1>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        .wp-container-2>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        .wp-container-2>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        .wp-container-2>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        .ic-stickey {
+            position: fixed;
+            top: 35%;
+            left: -250px;
+            z-index: 1111;
+        }
+
+        .ic-stickey ul {
+
+            padding: 0px;
+            position: relative;
+            /* -webkit-transform: translate(-270px, 0);
+  -moz-transform: translate(-270px, 0);
+  -ms-transform: translate(-270px, 0);
+  -o-transform: translate(-270px, 0);
+  transform: translate(-270px, 0);*/
+        }
+
+        .ic-stickey ul li {
+            display: block;
+            margin: 5px;
+            background: #162b45;
+            width: 290px;
+            text-align: right;
+            padding: 5px;
+            border-radius: 0 10px 10px 0;
+            transition: all 1s;
+        }
+
+        .ic-stickey ul li a {
+            color: #162b45;
+            font-size: 20px;
+        }
+
+
+        .ic-stickey ul li a p {
+            position: absolute;
+            margin-left: 100px;
+            margin-top: 10px;
+        }
+
+
+
+        .ic-stickey ul li:hover a p.aguap {
+            position: absolute;
+            margin-left: 160px;
+            margin-top: 10px;
+
+        }
+
+
+
+        .ic-stickey ul li:hover a p.gasp {
+            position: absolute;
+            margin-left: 140px;
+            margin-top: 10px;
+
+        }
+
+
+
+        .ic-stickey ul li:hover a p.malhap {
+            position: absolute;
+            margin-left: 140px;
+            margin-top: 10px;
+
+        }
+
+
+
+        .ic-stickey ul li:hover a p.beneficiosp {
+            position: absolute;
+            margin-left: 140px;
+            margin-top: 10px;
+
+        }
+
+
+        .ic-stickey ul li:hover a p.sepeliop {
+            position: absolute;
+            margin-left: 140px;
+            margin-top: 10px;
+
+        }
+
+
+        .ic-stickey ul li:hover a p.boletap {
+            position: absolute;
+            margin-left: 140px;
+            margin-top: 10px;
+
+        }
+
+
+
+
+        .ic-stickey ul li:hover {
+            background: #162B45 !important;
+            transform: translate(110px, 0);
+
+
+        }
+
+        .ic-stickey ul li:hover a {
+            color: #fff;
+
+        }
+
+        .ic-stickey ul li:hover i {
+            color: #fff;
+            transform: rotate(360deg);
+            transition: all 1s;
+        }
+
+        .ic-stickey ul li.agua:hover i {
+            background: #1da1f2;
+        }
+
+        .ic-stickey ul li.gas:hover i {
+            background: #4267b2;
+        }
+
+        .ic-stickey ul li.malha:hover i {
+            background: #07bc4c;
+        }
+
+        .ic-stickey ul li.beneficios:hover i {
+            background: #0077b5;
+        }
+
+        .ic-stickey ul li i {
+            margin-left: 10px;
+            color: #000;
+            background: #fff;
+            padding: 10px;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            font-size: 20px;
+            background: #fff;
+            transform: rotate(0deg);
+        }
+
+        .et_pb_module .et_pb_fullwidth_header .et_pb_fullwidth_header_1 .et_hover_enabled .et_pb_header_with_image .et_pb_text_align_left .et_pb_bg_layout_dark {
+            position: relative !important;
+            z-index: 0 !important;
+        }
