@@ -6,6 +6,7 @@ import ReactDOM from 'react-dom/client'
 import { SitioApp } from './SitioApp'
 
 
+
 import './styles.css'
 import './styles1.css'
 import './styles2.css'
@@ -25,12 +26,16 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <SitioApp />
     </BrowserRouter> 
     */}
+    
+    
     <div id="page-container">
 
 
 
       <header id="main-header" data-height-onload="99">
-        <div className="container clearfix et_menu_container">
+      
+
+         <div className="container clearfix et_menu_container">
           <div className="logo_container">
             <span className="logo_helper"></span>
             <a href="index.html">
@@ -61,7 +66,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
               </div>
             </div>
           </div>
-        </div>
+        </div> 
       </header>
   <div id="et-main-area">
  
@@ -92,9 +97,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 
 
-                              <img width="1040" height="552" src="wp-content/uploads/2022/05/cosap.jpg" alt=""
+                              <img width="1040" height="552" src="/img/1040.jpg" alt=""
                                   title="cosap"
-                                  srcSet="https://cosap.com.ar/wp-content/uploads/2022/05/cosap.jpg 1040w, https://cosap.com.ar/wp-content/uploads/2022/05/cosap-980x520.jpg 980w, https://cosap.com.ar/wp-content/uploads/2022/05/cosap-480x255.jpg 480w"
+                                  srcSet="/img/1040.jpg 1040w, 
+                                  /img/1040.jpg 980w, 
+                                  /img/1040.jpg 480w"
                                   sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) 1040px, 100vw"
                                   className="wp-image-231" />
 
