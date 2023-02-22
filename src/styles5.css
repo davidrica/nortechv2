@@ -493,7 +493,8 @@ div.et_pb_section.et_pb_section_4 {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 5px;
-    background-image: linear-gradient(180deg, #2573f9 0%, rgba(37, 115, 249, 0.73) 100%), url(../coopaguacastelli.com/wp-content/uploads/2022/03/img-13.html);
+    background-image: linear-gradient(180deg, #2573f9 0%, rgba(37, 115, 249, 0.73) 100%), 
+    url(img/480.jpg);
     border-radius: 200px 200px 200px 200px;
     overflow: hidden;
     padding-top: 30px !important;
@@ -525,7 +526,8 @@ div.et_pb_section.et_pb_section_4 {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 5px;
-    background-image: linear-gradient(270deg, rgba(234, 234, 234, 0.89) 0%, #d3d3d3 100%), url(http://coopaguacastelli.com/wp-content/uploads/2022/03/img-06.png);
+    background-image: linear-gradient(270deg, rgba(234, 234, 234, 0.89) 0%, #d3d3d3 100%), 
+    url(img/480.jpg);
     border-radius: 200px 200px 200px 200px;
     overflow: hidden;
     padding-top: 30px !important;
@@ -575,7 +577,8 @@ div.et_pb_section.et_pb_section_4 {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 5px;
-    background-image: linear-gradient(270deg, rgba(37, 115, 249, 0.74) 0%, #b0d9f2 100%), url(http://coopaguacastelli.com/wp-content/uploads/2022/03/it-services-02.jpg);
+    background-image: linear-gradient(270deg, rgba(37, 115, 249, 0.74) 0%, #b0d9f2 100%), 
+    url(img/480.jpg);
     border-radius: 200px 200px 200px 200px;
     overflow: hidden;
     padding-top: 30px !important;
@@ -585,7 +588,8 @@ div.et_pb_section.et_pb_section_4 {
 }
 
 div.et_pb_section.et_pb_section_5 {
-    background-image: linear-gradient(140deg, #004872 0%, rgba(41, 17, 96, 0.8) 100%), url(http://coopaguacastelli.com/wp-content/uploads/2022/03/it-services-04.jpg) !important
+    background-image: linear-gradient(140deg, #004872 0%, rgba(41, 17, 96, 0.8) 100%), 
+    url(./img/480.jpg) !important
 }
 
 .et_pb_section_5.et_pb_section {
