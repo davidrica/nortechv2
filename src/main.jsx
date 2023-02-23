@@ -883,11 +883,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                     <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-6">
-                                <div className="modal-header"><h2 className="text-uppercase">Acceso a Clientes</h2></div>
+                                <div className="modal-header"><h4 className="text-uppercase">Acceso a Clientes</h4></div>
                                 <div className="modal-body"></div>
                                 <form className="row g-3">
                                     <div className="div col-auto">
-                                        <label htmlFor="usuario">N CLiente:</label>
+                                        <label htmlFor="usuario">N Cliente:</label>
                                         <input id="usuario" type="text" />
                                     </div>
                                     <div className="div col-auto">
