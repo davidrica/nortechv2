@@ -1,4 +1,15 @@
 import React from 'react'
+const handleAnchorClick = event => {
+    // 👇️ use event.preventDefault() if you want to
+    // prevent navigation
+    // event.preventDefault();
+
+    console.log('Anchor element clicked');
+
+    // 👇️ refers to the link element
+    console.log(event.currentTarget);
+  };
+  
 
 export const Header = () => {
   return (
@@ -21,7 +32,9 @@ export const Header = () => {
                     <ul id="top-menu" className="nav">
                         <li><a href="#">Inicio</a></li>
                         <li className="page_item page-item-47"><a href="#">Otras</a></li>
-                        <li className="page_item page-item-97"><a href="#">Acceder a Facturas</a></li>
+                        <li className="page_item page-item-97">
+                            <a   data-bs-toggle="modal" href="#modalinicio">Ver Facturas</a>
+                        </li>
                     </ul>
                 </nav>
                 <div id="et_mobile_nav_menu">

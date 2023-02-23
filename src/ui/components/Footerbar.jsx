@@ -4,6 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 export const Footerbar = () => {
   return (
     <>
+    
     <footer className="outer footer ">
       <div className="outer" >    
 

@@ -23,6 +23,7 @@ const mStyle = {
     position: "relative"
 }
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
 
@@ -101,8 +102,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                                                     <div className="et_pb_blurb_content">
 
                                                         <div className="et_pb_blurb_container">
-                                                            <h4 className="et_pb_module_header"><a
-                                                                href="#">boletas de servicios</a></h4>
+                                                            <h4 className="et_pb_module_header">
+                                                               <a className="entypo-beneficios" data-bs-toggle="modal" href="#modalinicio">
+                                                               boletas de servicios</a>
+                                                               </h4>
 
                                                         </div>
                                                     </div>
@@ -829,7 +832,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                             <li className="sepelio"><a href="#" className="entypo-beneficios" rel="noopener"><p className="sepeliop">Sepelio </p>
                                 <img src="img/sepelio.png" style={mStyle} /></a></li>
 
-                            <li className="boleta"><a href="#" className="entypo-beneficios" rel="noopener"><p className="boletap">Boletas </p>
+                            <li className="boleta">
+                               
+                                <a className="entypo-beneficios" data-bs-toggle="modal" href="#modalinicio" >
+                                    <p className="boletap">Boletas </p>
                                 <img src="img/boletas.png" style={mStyle} /></a></li>
 
 
@@ -870,7 +876,34 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
         </div>
 
-
+        <div className="portfolio-modal modal fade" id="modalinicio" tabIndex="-1" role="dialog" aria-hidden="true">
+            <div className="modal-dialog">
+                <div className="modal-content">
+                    <div className="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div className="container">
+                        <div className="row justify-content-center">
+                            <div className="col-lg-6">
+                                <div className="modal-header"><h2 className="text-uppercase">Acceso a Clientes</h2></div>
+                                <div className="modal-body"></div>
+                                <form className="row g-3">
+                                    <div className="div col-auto">
+                                        <label htmlFor="usuario">N CLiente:</label>
+                                        <input id="usuario" type="text" />
+                                    </div>
+                                    <div className="div col-auto">
+                                        <input className="btn btn-success"  id="ingresar" type="button" value="INGRESAR" />
+                                        <button className="btn btn-primary" data-bs-dismiss="modal" type="button">
+                                            <i className="fas fa-xmark me-1"></i>
+                                            Cancelar acceso
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
     </React.StrictMode>
