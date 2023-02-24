@@ -20,7 +20,7 @@ export const Header = () => {
             <div className="logo_container">
                 <span className="logo_helper"></span>
                 <a href="index.html">
-                    <img src="./logo.ico" width="2214" height="674" alt="Norte Chaqueño" id="logo" data-height-percentage="56" />
+                    <img src="img/logo.ico" width="2214" height="674" alt="Norte Chaqueño" id="logo" data-height-percentage="56" />
                 </a>
             </div>
                  

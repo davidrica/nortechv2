@@ -55,7 +55,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                                         className="et_pb_section et_pb_section_0 et_animated et_pb_section_parallax et_pb_with_background et_pb_fullwidth_section et_section_regular">
 
                                         <span className="et_parallax_bg_wrap"><span className="et_parallax_bg"
-                                            style={{ backgroundImage: "url(img/coop.jpg)" }}
+                                            style={{ backgroundImage: "url(img/logo.svg)" }}
                                         >
                                         </span>
                                         </span>
@@ -218,13 +218,13 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
                                                     <div className="et_pb_blurb_content">
                                                         <div className="et_pb_main_blurb_image"><a
-                                                            href="index.php/sepelio-2/index.html"><span
+                                                            href="#"><span
                                                                 className="et_pb_image_wrap"><span
                                                                     className="et-waypoint et_pb_animation_off et_pb_animation_off_tablet et_pb_animation_off_phone et-pb-icon"></span></span></a>
                                                         </div>
                                                         <div className="et_pb_blurb_container">
                                                             <h4 className="et_pb_module_header"><a
-                                                                href="index.php/sepelio-2/index.html">Servicio de
+                                                                href="#">Servicio de
                                                                 Sepelio</a></h4>
 
                                                         </div>
@@ -873,7 +873,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                                     </a>
                                 </li>
                                 <li className="et-social-icon et-social-rss">
-                                    <a href="index.php/feed/index.html" className="icon">
+                                    <a href="#" className="icon">
                                         <span>RSS</span>
                                     </a>
                                 </li>
