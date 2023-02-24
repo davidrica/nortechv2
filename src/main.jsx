@@ -754,24 +754,34 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                                                             <h4 className="et_pb_module_header"><span>Reseña histórica:</span>
                                                             </h4>
                                                             <div className="et_pb_blurb_description">
-                                                                <p style={{ textAlign: "justify" }} ><span>La Cooperativa de
-                                                                    Provisión de Servicio s Públicos Contraalmirante
-                                                                    Gregorio A. Portillo Ltda. nace el 17 de mayo de
-                                                                    1953 con el nombre de Cooperativa de Luz y Fuerza e
-                                                                    Industrias Anexas, cuando un grupo de ciudadanos se
-                                                                    reúne para conformar una Asociación para lograr la
-                                                                    provisión de energía eléctrica, a la que se agregó
-                                                                    la venta de los insumos para las conexiones
-                                                                    domiciliarias a precio de costo. Llegada la línea de
-                                                                    alta tensión a ciudad, a cargo del Estado
-                                                                    Provincial, la Cooperativa inicia su transformación
-                                                                    para proveer de agua potable a los pobladores Juan
-                                                                    José Castelli. En ese lapso pasó a denominarse
-                                                                    Cooperativa de Luz y Fuerza, Agua Potable y otros
-                                                                    Servicios. Ya en el año 1982 y solamente con el
-                                                                    objetivo de proveer agua potable a sus socios es que
-                                                                    adquiere el nombre que lleva en la
-                                                                    actualidad.</span></p>
+                                                                <p style={{ textAlign: "justify" }} >
+                                                                    <span>Las primeras ideas de tener luz en el campo surgieron en reuniones 
+                                                                        que se hacían en el INTA, allí los ingenieros Cardozo y Vicini nos daban 
+                                                                        cursos de capacitación a un grupo de productores vimos así la posibilidad 
+                                                                        de tener luz.
+                                                                    </span>
+                                                                </p>
+                                                                <p style={{ textAlign: "justify" }} ><span>
+                                                                        Las primeras ideas de tener luz en el campo surgieron en reuniones 
+                                                                        que se hacían en el INTA, allí los ingenieros Cardozo y Vicini nos daban 
+                                                                        cursos de capacitación a un grupo de productores vimos así la posibilidad 
+                                                                        de tener luz.</span></p>
+                                                                <p style={{ textAlign: "justify" }} ><span>
+                                                                    La idea era generar energía con un motor propio es así que un ingeniero de apellido Maier del INTA de Sáenz Peña logra conseguirnos un motor donado desde Alemania y  que llegó a esa ciudad, era un motor marca Mercedes Benz gasolero con generador. El motor se pensaba poner en el campo de Omar Swindt.</span></p> 
+                                                                <p style={{ textAlign: "justify" }} ><span>
+                                                                    Había que decidir que materiales necesitábamos para hacer el tendido eléctrico y es así que nos dimos cuenta que no era nada barato, varios productores desistieron del proyecto pero  aun así varios seguimos adelante.</span></p> 
+                                                                <p style={{ textAlign: "justify" }} ><span>
+                                                                    Teníamos motor y faltaba los materiales que debíamos pagar cada uno, como hicimos contacto con un empresario  proveedor de materiales que le vendía a la provincia, este nos sugirió que hablemos con la dirección de energía  contándoles nuestra idea.</span></p>
+                                                                <p style={{ textAlign: "justify" }} ><span>
+                                                                    Dirección de energía no pide que nos organicemos como comisión, en aquel tiempo hicimos más de un viaje a resistencia pasando largas horas de espera para atendernos y escucharnos.</span></p>
+                                                                <p style={{ textAlign: "justify" }} ><span>
+                                                                    Luego firmamos un convenio de provisión de materiales y nosotros debíamos poner la mano de obra, en aquel tiempo los productores garantizamos con nuestro capital el material conseguido en un importe equivalente el valor de 12 camionetas de hoy.</span></p>
+                                                                <p style={{ textAlign: "justify" }} ><span>
+                                                                    Así arrancamos las primeras líneas con la colaboración de muchos vecinos productores.</span></p>
+                                                                <p style={{ textAlign: "justify" }} ><span>
+                                                                    Las primeras reuniones se hacían en el INTA, en la cooperativa Guemes y luego en un local que nos cedió la cooperativa Castelli, las reuniones se hacían de tardecita luego de que cada uno terminara sus trabajos de campo.</span></p>
+
+
                                                                 <p>&nbsp;</p>
                                                             </div>
                                                         </div>
