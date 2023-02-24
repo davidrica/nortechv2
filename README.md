@@ -1,11 +1,25 @@
 # sitio Desarrollado con VITE -REACT
 
-clonar el repositorio e ingresar al directorio "nortechv2"
-## gh repo clone davidrica/nortechv2
 
-Instala dependencia
--ejecutar como administrador
-## yarn 
+## 1 - Clonar el repositorio
 
-corre el servidor
-## yarn dev
+```
+    gh repo clone davidrica/nortechv2
+    
+
+```
+## 2 - Ingresar al directorio de `nortechv2`
+```
+    cd nortechv2
+```
+
+## 3 - Instala dependencia ejecutar como `admin`
+```
+    yarn 
+```
+
+## 4 - Corre el servidor
+```
+  yarn dev
+
+```
