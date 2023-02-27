@@ -6,13 +6,13 @@
 }
 
 .is-dark-theme .wp-block-audio figcaption {
-    color: hsla(0, 0%, 100%, .65)
+    color: hsla(0,0%,100%,.65)
 }
 
 .wp-block-code {
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-family: Menlo, Consolas, monaco, monospace;
+    font-family: Menlo,Consolas,monaco,monospace;
     padding: .8em 1em
 }
 
@@ -23,7 +23,7 @@
 }
 
 .is-dark-theme .wp-block-embed figcaption {
-    color: hsla(0, 0%, 100%, .65)
+    color: hsla(0,0%,100%,.65)
 }
 
 .blocks-gallery-caption {
@@ -33,7 +33,7 @@
 }
 
 .is-dark-theme .blocks-gallery-caption {
-    color: hsla(0, 0%, 100%, .65)
+    color: hsla(0,0%,100%,.65)
 }
 
 .wp-block-image figcaption {
@@ -43,7 +43,7 @@
 }
 
 .is-dark-theme .wp-block-image figcaption {
-    color: hsla(0, 0%, 100%, .65)
+    color: hsla(0,0%,100%,.65)
 }
 
 .wp-block-pullquote {
@@ -53,9 +53,7 @@
     color: currentColor
 }
 
-.wp-block-pullquote__citation,
-.wp-block-pullquote cite,
-.wp-block-pullquote footer {
+.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer {
     color: currentColor;
     text-transform: uppercase;
     font-size: .8125em;
@@ -68,8 +66,7 @@
     padding-left: 1em
 }
 
-.wp-block-quote cite,
-.wp-block-quote footer {
+.wp-block-quote cite,.wp-block-quote footer {
     color: currentColor;
     font-size: .8125em;
     position: relative;
@@ -88,9 +85,7 @@
     padding-left: 0
 }
 
-.wp-block-quote.is-large,
-.wp-block-quote.is-style-large,
-.wp-block-quote.is-style-plain {
+.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain {
     border: none
 }
 
@@ -138,8 +133,7 @@
     border-top: 3px solid
 }
 
-.wp-block-table td,
-.wp-block-table th {
+.wp-block-table td,.wp-block-table th {
     padding: .5em;
     border: 1px solid;
     word-break: normal
@@ -152,7 +146,7 @@
 }
 
 .is-dark-theme .wp-block-table figcaption {
-    color: hsla(0, 0%, 100%, .65)
+    color: hsla(0,0%,100%,.65)
 }
 
 .wp-block-video figcaption {
@@ -162,7 +156,7 @@
 }
 
 .is-dark-theme .wp-block-video figcaption {
-    color: hsla(0, 0%, 100%, .65)
+    color: hsla(0,0%,100%,.65)
 }
 
 .wp-block-template-part.has-background {

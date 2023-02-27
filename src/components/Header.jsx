@@ -1,14 +1,6 @@
 import React from 'react'
-const handleAnchorClick = event => {
-    // 👇️ use event.preventDefault() if you want to
-    // prevent navigation
-    // event.preventDefault();
 
-    console.log('Anchor element clicked');
 
-    // 👇️ refers to the link element
-    console.log(event.currentTarget);
-  };
   
 
 export const Header = () => {

@@ -3,7 +3,9 @@ import {Navigate, Route, Routes} from 'react-router-dom'
 import { LocalesPage ,NosotrosPage , ProductosPage,NotFound } from '../pages'
 
 import { Navbar } from '../ui'
-import { Footerbar } from '../ui/components/Footerbar'
+
+import { Footerbar  } from '../components'
+
 export const RoutesApp = () => {
   return (
     <>
